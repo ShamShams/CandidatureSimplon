@@ -1,4 +1,8 @@
-/* SLIDER */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 
 @keyframes slidy {
 0% { left: -0%; }
@@ -15,8 +19,6 @@
 #slider { 
 	overflow: hidden; 
     height: 600px;
-    margin: 0;
-    padding: 0;
 
 }
 
@@ -32,5 +34,3 @@
   font-size: 0;
   animation: 20s slidy infinite; 
 }
-
-/* SLIDER */
