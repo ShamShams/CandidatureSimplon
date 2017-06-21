@@ -18,15 +18,14 @@
 <body>
 
 <!-- FIXED NAVBAR -->
-
 	<div id="header1" class="row navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">	<!-- CONTAINER 1 -->
-			<div class="col-md-1"><img id="logo" src="images/faviconM.png" alt=""></div>
-			<div class="col-md-1"><a class="menu" href="#">Gallery</a></div>
-			<div class="col-md-1"><a class="menu" href="#">Social</a></div>
-			<div class="col-md-6"><a class="menu" href="#">Contact</a></div>
-			<div class="col-md-2"><input class="form-control searchbar" type="text" placeholder="SEARCH..."></div>
-			<div class="col-md-1"><a class="menu" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></div>
+			<div class="col-md-1 text-center"><a href="http://www.simplon.co"><img id="logonav" src="images/faviconC.png" alt="Logo Simplon"></a></div>
+			<div class="col-md-1 text-center"><a class="menu" href="#formation">Formation</a></div>
+			<div class="col-md-1 text-center"><a class="menu" href="#programme">Programme</a></div>
+			<div class="col-md-1 text-center"><a class="menu" href="#profil">Profil</a></div>
+			<div class="col-md-7"><a class="menu" href="#ateliers">Ateliers</a></div>
+			<div class="col-md-1 text-center"><a class="menu" id="espace" href="#"><i class="fa fa-user" aria-hidden="true"></i> Mon Espace</a></div>
 		</div> 					       <!-- END CONTAINER 1 -->
 	</div>
 <!-- END FIXED NAVBAR -->
@@ -35,10 +34,10 @@
 
 <div id="slider">
     <figure>
-    <img src="images/SLIDER2.jpg" width="600px" height="800px">
-    <img src="images/SLIDER1.jpg" width="600px" height="800px">
-    <img src="images/SLIDER3.1.jpg" width="600px" height="800px">
-    <img src="images/SLIDER5.jpg" width="600px" height="800px">
+    	<img src="images/SLIDER2.jpg" width="600px" height="800px">
+    	<img src="images/SLIDER1.jpg" width="600px" height="800px">
+    	<img src="images/SLIDER3.1.jpg" width="600px" height="800px">
+    	<img src="images/SLIDER5.jpg" width="600px" height="800px">
     </figure>
     </div>
 
@@ -47,7 +46,7 @@
 <!-- BLOCKS -->
 	<section>
 <!-- BLOCK 1 -->
-		<div class="content">
+		<div id="formation" class="content">
 			<div class="content-text">
 				<h2>Formation</h2>
 				<p>Formation courte et intensive ouverte à tous avec un métier à la clé.</p>
@@ -61,7 +60,7 @@
 <!-- END BLOCK 1 -->
 
 <!-- BLOCK 2 -->
-		<div class="content">
+		<div id="programme" class="content">
 			<div class="content-img">
 				<img src="images/langages-web.png" alt="">
 			</div>
@@ -78,7 +77,7 @@
 <!-- END BLOCK 2 -->
 
 <!-- BLOCK 3 -->
-		<div class="content">
+		<div id="profil" class="content">
 			<div class="content-text">
 				<h2>Profil attendu</h2>
 				<p>Nos formations s’adressent prioritairement aux personnes éloignées de l’emploi (jeunes de moins de 25 ans, peu ou pas diplômées, issues des quartiers populaires et des milieux ruraux, demandeurs d’emplois de longue durée, seniors, personnes en situation de handicap, personnes réfugiées), et sont ouvertes sur critères sociaux et avec un objectif de parité hommes-femmes mais sans aucun pré-requis technique (débutants acceptés).</p>
@@ -97,7 +96,7 @@
 				<img src="images/ateliers.png" alt="">
 			</div>
 			<div class="content-text">
-				<h2>Ateliers</h2>
+				<h2 id="ateliers">Ateliers</h2>
 				<p>Venez découvrir le Web avec les Ateliers Découvertes menés par des apprenant.e.s Simplon.</p>
 				<p>Vous comprendrez ce qui se cache derrière votre écran et comment créer des sites internet, vous apprivoiserez un CMS comme WordPress pour comprendre comment faire une page web sans coder, vous découvrirez les bases de la logique de programmation avec Scratch, et pleins d'autres surprises...</p>
 			</div>
@@ -113,5 +112,18 @@
 <!-- END BLOCK 5 -->
 	</section>
 <!-- END BLOCKS -->
+
+<!-- FOOTER -->
+	<div id="footer1" class="row navbar navbar-default navbar-fixed-bottom">
+		<div class="container-fluid">	<!-- CONTAINER 1 -->
+			<div class="col-md-12 text-center">
+			<a href="https://www.facebook.com/Simplon.co" target="blank"><i class="foot fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/simplonco" target="blank"><i class="foot fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+			<a href="https://github.com/simplonco" target="blank"><i class="foot fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+			<a href="https://www.youtube.com/channel/UCTFYd2sOfjrJH1C421UyYuQ" target="blank"><i class="foot fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</div> 					       <!-- END CONTAINER 1 -->
+	</div>
+<!-- END FOOTER -->
 </body>
 </html>
