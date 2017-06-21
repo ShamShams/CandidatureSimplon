@@ -1,3 +1,4 @@
+
 /* SLIDER */
 
 @keyframes slidy {
@@ -34,3 +35,63 @@
 }
 
 /* SLIDER */
+  * {
+      margin: 0;
+      font-family: 'Assistant', sans-serif;
+  }
+
+/*-- BLOCKS --*/
+  .content {
+      display: flex;
+      margin: 5em 0;
+      align-items: center;
+      text-align: justify;
+}
+  .content-img img {
+      width: 100%;
+      height: auto;
+      border-radius: 5%;
+}
+  #student {
+      width: 80%;
+}
+  .content-text {
+      flex: 2;
+      padding: 0 3em;
+}
+  .content-text h2 {
+      color: #d7254e;  
+      font-size: 3em;
+      margin-bottom: 1.3em;
+      font-family: 'Concert One';
+}
+  .content-text p {
+      font-size: 1.3em;
+      color: grey;
+      line-height: 1.6em;
+}
+  .content-img {
+      flex: 1;
+      padding: 0 1em;
+}
+  .line {
+      border: none;
+      background-color: rgba(190, 190, 190, 0.3);
+      padding: 1px 0;
+      width: 60%;
+      margin: 0 auto;
+}
+  .macaron {
+      width: 15%;
+      margin: 5em auto;
+}
+
+  .macaron img {
+      width: 100%;
+}
+  .macaron:hover  {
+      transition-duration: 2.5s;
+      transform: rotateY(360deg);
+      transition-timing-function: ease;
+}
+/*f-- END BLOCKS --*/
